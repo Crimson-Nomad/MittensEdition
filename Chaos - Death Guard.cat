@@ -2524,7 +2524,7 @@ While a ^^**Death Guard^^** unit from your army is within 7&quot; of one or more
               <modifiers>
                 <modifier type="set" value="1" field="ad94-ce6f-2af7-67fd">
                   <conditions>
-                    <condition type="lessThan" value="20" field="selections" scope="parent" childId="model" shared="true"/>
+                    <condition type="lessThan" value="19" field="selections" scope="parent" childId="model" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2534,12 +2534,22 @@ While a ^^**Death Guard^^** unit from your army is within 7&quot; of one or more
               <profiles>
                 <profile name="Melta Bombs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f493-95f8-fef2-ba20">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this model or an enemy unit ends a move, if this model is within 3&quot; of one or more enemy units, select one of those enemy units. This model is destroyed, but instead of rolling for its Deadly Demise ability, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time a Poxburster or an enemy unit ends a move, if this model is within 3&quot; of one or more enemy units, select one of those enemy units. This model is destroyed, but instead of rolling for its Deadly Demise ability, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Unstable Payload" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b914-5f64-8fb4-a2f7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When rolling for this model’s Deadly Demise ability, units within 6&quot; suffer mortal wounds on a 4+, instead of on a 6.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">When rolling for a Poxburster’s Deadly Demise ability, units within 6&quot; suffer mortal wounds on a 4+, instead of on a 6.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Poxburster" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5117-49c0-b049-d25d" noindex="true">
+                  <characteristics>
+                    <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">5&quot;</characteristic>
+                    <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">4</characteristic>
+                    <characteristic name="SV" typeId="450-a17e-9d5e-29da">7+</characteristic>
+                    <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                    <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+                    <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
