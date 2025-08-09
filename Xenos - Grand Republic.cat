@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7c65-721e-7b16-7b2b" name="Xenos - Grand Republic" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="39" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry name="Clone Troopers" id="326d-5f36-6ad0-6f1c" hidden="false"/>
+    <categoryEntry name="Clone Commandos" id="31d3-2dcd-193d-8274" hidden="false"/>
+    <categoryEntry name="ARC Troopers" id="8dfa-ad3e-46f4-a686" hidden="false"/>
+    <categoryEntry name="BARC Troopers" id="4fdd-0803-292c-c710" hidden="false"/>
+    <categoryEntry name="Airborne Troopers" id="bcd1-5808-b702-4113" hidden="false"/>
+  </categoryEntries>
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Clone Team" hidden="false" id="04ad-746b-54ae-e8a3">
+      <costs>
+        <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+        <cost name="Crusade Points" typeId="b03b-c239-15a5-da55" value="0"/>
+        <cost name="Crusade: Battle Honours" typeId="75bb-ded1-c86d-bdf0" value="0"/>
+        <cost name="Crusade: Experience" typeId="a623-fe74-1d33-cddf" value="0"/>
+        <cost name="Crusade: Weapon Modifications" typeId="716d-91b7-d55a-1022" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="e338-111e-d0c6-b687" id="d2d4-37ba-333b-fead" primary="true" name="Battleline"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="b1dc-c4bd-4372-6444" primary="false" name="Grenades"/>
+        <categoryLink targetId="6df-937-16bc-8c1a" id="9f81-3ad8-90e7-057e" primary="false" name="Smoke"/>
+        <categoryLink targetId="326d-5f36-6ad0-6f1c" id="d94a-e198-a6bb-5a20" primary="false" name="Clone Troopers"/>
+        <categoryLink targetId="8532-5316-5025-4348" id="3088-a116-3f62-552e" primary="false" name="Faction: Grand Republic"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Clone Sergeant" id="e8ec-3e67-3687-705a" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Clone Sergeant" hidden="false" id="c4ac-d867-115f-7ccd">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Wargear" id="0b40-13f9-3c8f-6f4e" hidden="false">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Blaster Pistol" id="480e-8ebe-b25f-c508" hidden="false" collective="true">
+                      <profiles>
+                        <profile name="Blaster Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="2a8f-15cc-845e-b970">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule name="Pistol" id="1753-3d57-da9a-b980" hidden="false" publicationId="48fc-15aa-b307-9443">
+                          <description>Rapid Fire</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b91-b659-3330-eda2"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a586-2235-46b8-c8ab"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <entryLinks>
+                    <entryLink import="true" name="Blaster Rifle" hidden="false" id="ce4a-f9ca-85a5-c267" type="selectionEntry" collective="true" targetId="13f3-fc06-5d04-b112">
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3c2-ed65-efb9-065e"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9afe-fb47-3173-1345"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Clone Sergeant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5485-be0f-e78d-8b14">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="508e-19aa-94ef-907b"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="472a-02e0-e129-7e47"/>
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Clone Troopers" id="fefa-af35-5931-41a0" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Clone Troopers" hidden="false" id="d14a-886c-920e-308d">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Wargear" id="5e3d-bc16-d8c8-a228" hidden="false">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup name="Blaster Pistol" id="6ab2-5a68-edc8-bd18" hidden="false" collective="true">
+                      <profiles>
+                        <profile name="Blaster Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="494d-b927-a31e-719a">
+                          <characteristics>
+                            <characteristic name="Range" typeId="9896-9419-16a1-92fc">12&quot;</characteristic>
+                            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+                            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+                            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+                            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+                            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+                            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Pistol</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule name="Pistol" id="f3d0-1c39-fefa-a6bb" hidden="false" publicationId="48fc-15aa-b307-9443">
+                          <description>Rapid Fire</description>
+                        </rule>
+                      </rules>
+                      <constraints>
+                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a9c1-3fcc-bdca-5576"/>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0c8-60f4-31ed-61df"/>
+                      </constraints>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <entryLinks>
+                    <entryLink import="true" name="Blaster Rifle" hidden="false" id="5563-1de3-9e2f-7c1e" type="selectionEntry" targetId="13f3-fc06-5d04-b112" collective="true"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Clone Troopers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c445-4cf9-fb4c-2157">
+              <characteristics>
+                <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
+                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="SV" typeId="450-a17e-9d5e-29da">4+</characteristic>
+                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">1</characteristic>
+                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="a424-3ce0-5020-2f54"/>
+            <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="24c2-2e9b-d67a-0fef"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="6" field="selections" scope="roster" shared="true" id="f5be-9fcc-7e4c-90a6" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <rules>
+        <rule name="New Rule" id="f16a-8188-2a34-f6b2" hidden="false"/>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blaster Rifle" hidden="false" id="13f3-fc06-5d04-b112" collective="true">
+      <profiles>
+        <profile name="Blaster Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0c00-9b15-9ebf-7ee8">
+          <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">30&quot;</characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">1</characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">4+</characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">5</characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">0</characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">1</characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">Rapid Fire 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Clone Team" hidden="false" id="9508-37b0-de17-d205" targetId="04ad-746b-54ae-e8a3" type="selectionEntry"/>
+    <entryLink import="true" name="Blaster Rifle" hidden="false" id="37f4-e029-516d-2dc0" targetId="13f3-fc06-5d04-b112" type="selectionEntry"/>
+  </entryLinks>
+  <rules>
+    <rule name="For the Republic!" id="e04e-d242-6a91-24fe" hidden="false">
+      <description>If your Army Faction is **^^Grand Republic^^**, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.
+
+
+During your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding **^^Fortification^^** and Battle‑shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.
+
+
+Units from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.
+
+
+Until the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the **[IGNORES COVER]** ability.</description>
+    </rule>
+  </rules>
+</catalogue>
