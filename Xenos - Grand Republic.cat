@@ -147,7 +147,7 @@
         <rule name="New Rule" id="f16a-8188-2a34-f6b2" hidden="false"/>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Blaster Rifle" hidden="false" id="13f3-fc06-5d04-b112" collective="true">
+    <selectionEntry type="upgrade" import="true" name="Blaster Rifle" hidden="true" id="13f3-fc06-5d04-b112" collective="true">
       <profiles>
         <profile name="Blaster Rifle" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="0c00-9b15-9ebf-7ee8">
           <characteristics>
